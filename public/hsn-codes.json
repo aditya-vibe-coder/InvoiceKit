@@ -1,0 +1,12 @@
+[
+  { "code": "998311", "description": "Management consulting and management services" },
+  { "code": "998313", "description": "Information technology (IT) design and development services" },
+  { "code": "998314", "description": "Information technology (IT) infrastructure and network services" },
+  { "code": "998315", "description": "Information technology (IT) support services" },
+  { "code": "998316", "description": "Software as a Service (SaaS)" },
+  { "code": "998341", "description": "Graphic design services" },
+  { "code": "998342", "description": "Interior design services" },
+  { "code": "998343", "description": "Advertising services" },
+  { "code": "998344", "description": "Market research services" },
+  { "code": "998345", "description": "Public relations services" }
+]

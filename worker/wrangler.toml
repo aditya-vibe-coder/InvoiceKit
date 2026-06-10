@@ -1,0 +1,15 @@
+name = "invoicekit-api"
+main = "index.js"
+compatibility_date = "2026-05-26"
+
+[vars]
+# Secrets like RAZORPAY_KEY_ID, etc., should be managed via 'wrangler secret put'
+# They are not stored in this file for security.
+
+[[kv_namespaces]]
+binding = "LICENSES"
+id = "YOUR_KV_NAMESPACE_ID"
+
+routes = [
+  "api.YOUR_DOMAIN.com/*"
+]

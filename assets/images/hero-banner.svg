@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E293B;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22C55E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16A34A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E293B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0F172A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="greenPulse" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22C55E;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#16A34A;stop-opacity:0.05" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)" />
+
+  <!-- Decorative grid pattern -->
+  <g opacity="0.03">
+    <line x1="0" y1="0" x2="1200" y2="0" stroke="#22C55E" stroke-width="1" />
+    <line x1="0" y1="30" x2="1200" y2="30" stroke="#22C55E" stroke-width="1" />
+    <line x1="0" y1="60" x2="1200" y2="60" stroke="#22C55E" stroke-width="1" />
+    <line x1="0" y1="90" x2="1200" y2="90" stroke="#22C55E" stroke-width="1" />
+    <line x1="0" y1="120" x2="1200" y2="120" stroke="#22C55E" stroke-width="1" />
+    <line x1="0" y1="150" x2="1200" y2="150" stroke="#22C55E" stroke-width="1" />
+    <line x1="0" y1="180" x2="1200" y2="180" stroke="#22C55E" stroke-width="1" />
+    <line x1="0" y1="210" x2="1200" y2="210" stroke="#22C55E" stroke-width="1" />
+    <line x1="0" y1="240" x2="1200" y2="240" stroke="#22C55E" stroke-width="1" />
+    <line x1="0" y1="270" x2="1200" y2="270" stroke="#22C55E" stroke-width="1" />
+    <line x1="0" y1="300" x2="1200" y2="300" stroke="#22C55E" stroke-width="1" />
+    <line x1="0" y1="330" x2="1200" y2="330" stroke="#22C55E" stroke-width="1" />
+    <line x1="0" y1="360" x2="1200" y2="360" stroke="#22C55E" stroke-width="1" />
+    <line x1="0" y1="390" x2="1200" y2="390" stroke="#22C55E" stroke-width="1" />
+    <line x1="0" y1="420" x2="1200" y2="420" stroke="#22C55E" stroke-width="1" />
+    <line x1="0" y1="450" x2="1200" y2="450" stroke="#22C55E" stroke-width="1" />
+    <line x1="0" y1="480" x2="1200" y2="480" stroke="#22C55E" stroke-width="1" />
+    <line x1="0" y1="510" x2="1200" y2="510" stroke="#22C55E" stroke-width="1" />
+    <line x1="0" y1="540" x2="1200" y2="540" stroke="#22C55E" stroke-width="1" />
+    <line x1="0" y1="570" x2="1200" y2="570" stroke="#22C55E" stroke-width="1" />
+    <line x1="0" y1="600" x2="1200" y2="600" stroke="#22C55E" stroke-width="1" />
+    <line x1="0" y1="630" x2="1200" y2="630" stroke="#22C55E" stroke-width="1" />
+  </g>
+
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="180" fill="url(#greenPulse)" />
+  <circle cx="1100" cy="500" r="200" fill="url(#greenPulse)" />
+
+  <!-- Left Panel: Dashboard mockup -->
+  <g transform="translate(50, 100)" filter="url(#shadow)">
+    <!-- Window frame -->
+    <rect width="320" height="400" rx="12" fill="#1E293B" stroke="#334155" stroke-width="1.5" />
+    <!-- Title bar -->
+    <rect x="0" y="0" width="320" height="36" rx="12" fill="#334155" />
+    <rect x="0" y="20" width="320" height="16" fill="#334155" />
+    <circle cx="24" cy="18" r="5" fill="#EF4444" />
+    <circle cx="40" cy="18" r="5" fill="#F59E0B" />
+    <circle cx="56" cy="18" r="5" fill="#22C55E" />
+    <!-- Content area -->
+    <text x="160" y="62" text-anchor="middle" fill="#94A3B8" font-family="sans-serif" font-size="10" font-weight="600">Dashboard</text>
+
+    <!-- Stats cards -->
+    <rect x="16" y="78" rx="8" width="136" height="56" fill="#0F172A" stroke="#334155" stroke-width="1" />
+    <text x="28" y="98" fill="#64748B" font-family="sans-serif" font-size="8">Revenue</text>
+    <text x="28" y="118" fill="#F8FAFC" font-family="sans-serif" font-size="15" font-weight="bold">₹2,48,500</text>
+
+    <rect x="168" y="78" rx="8" width="136" height="56" fill="#0F172A" stroke="#334155" stroke-width="1" />
+    <text x="180" y="98" fill="#64748B" font-family="sans-serif" font-size="8">Pending</text>
+    <text x="180" y="118" fill="#F59E0B" font-family="sans-serif" font-size="15" font-weight="bold">₹42,300</text>
+
+    <!-- Invoice list -->
+    <rect x="16" y="148" rx="8" width="288" height="24" fill="#0F172A" stroke="#334155" stroke-width="1" />
+    <text x="28" y="163" fill="#94A3B8" font-family="sans-serif" font-size="9">INV-2024-001 — TechCorp</text>
+    <text x="280" y="163" text-anchor="end" fill="#22C55E" font-family="sans-serif" font-size="9" font-weight="bold">₹24,500</text>
+
+    <rect x="16" y="180" rx="8" width="288" height="24" fill="#0F172A" stroke="#334155" stroke-width="1" />
+    <text x="28" y="195" fill="#94A3B8" font-family="sans-serif" font-size="9">INV-2024-002 — DesignCo</text>
+    <text x="280" y="195" text-anchor="end" fill="#F59E0B" font-family="sans-serif" font-size="9" font-weight="bold">₹12,000</text>
+
+    <rect x="16" y="212" rx="8" width="288" height="24" fill="#0F172A" stroke="#334155" stroke-width="1" />
+    <text x="28" y="227" fill="#94A3B8" font-family="sans-serif" font-size="9">INV-2024-003 — Webify</text>
+    <text x="280" y="227" text-anchor="end" fill="#22C55E" font-family="sans-serif" font-size="9" font-weight="bold">₹31,200</text>
+
+    <!-- Chart section -->
+    <rect x="16" y="250" rx="8" width="288" height="130" fill="#0F172A" stroke="#334155" stroke-width="1" />
+    <text x="28" y="270" fill="#64748B" font-family="sans-serif" font-size="8" font-weight="600">Revenue Trend</text>
+
+    <!-- Bar chart -->
+    <g transform="translate(28, 278)">
+      <rect x="28" y="68" width="28" height="32" rx="3" fill="#22C55E" opacity="0.6" />
+      <rect x="60" y="52" width="28" height="48" rx="3" fill="#22C55E" opacity="0.7" />
+      <rect x="92" y="60" width="28" height="40" rx="3" fill="#22C55E" opacity="0.8" />
+      <rect x="124" y="40" width="28" height="60" rx="3" fill="#22C55E" opacity="0.85" />
+      <rect x="156" y="48" width="28" height="52" rx="3" fill="#22C55E" opacity="0.9" />
+      <rect x="188" y="24" width="28" height="76" rx="3" fill="#22C55E" opacity="0.95" />
+      <rect x="220" y="12" width="28" height="88" rx="3" fill="#22C55E" />
+    </g>
+  </g>
+
+  <!-- Right Panel: Content -->
+  <g transform="translate(440, 140)">
+    <!-- Badge -->
+    <rect x="0" y="0" rx="999" width="120" height="22" fill="#22C55E" opacity="0.15" />
+    <text x="60" y="15" text-anchor="middle" fill="#22C55E" font-family="sans-serif" font-size="10" font-weight="bold">PRIVACY-FIRST</text>
+
+    <!-- Title -->
+    <text x="0" y="65" fill="#F8FAFC" font-family="sans-serif" font-size="36" font-weight="800">InvoiceKit</text>
+    <text x="0" y="95" fill="#22C55E" font-family="sans-serif" font-size="22" font-weight="700">Pro</text>
+
+    <!-- Tagline -->
+    <text x="0" y="140" fill="#94A3B8" font-family="sans-serif" font-size="14">Free GST Invoice Generator</text>
+    <text x="0" y="160" fill="#94A3B8" font-family="sans-serif" font-size="14">for Indian Freelancers</text>
+
+    <!-- Feature bullets -->
+    <g transform="translate(0, 200)">
+      <circle cx="6" cy="-4" r="4" fill="#22C55E" />
+      <text x="18" y="0" fill="#CBD5E1" font-family="sans-serif" font-size="13">Auto CGST, SGST &amp; IGST calculation</text>
+    </g>
+    <g transform="translate(0, 230)">
+      <circle cx="6" cy="-4" r="4" fill="#22C55E" />
+      <text x="18" y="0" fill="#CBD5E1" font-family="sans-serif" font-size="13">GSTR-1 summary &amp; P&amp;L reports</text>
+    </g>
+    <g transform="translate(0, 260)">
+      <circle cx="6" cy="-4" r="4" fill="#22C55E" />
+      <text x="18" y="0" fill="#CBD5E1" font-family="sans-serif" font-size="13">HSN / SAC code support</text>
+    </g>
+    <g transform="translate(0, 290)">
+      <circle cx="6" cy="-4" r="4" fill="#22C55E" />
+      <text x="18" y="0" fill="#CBD5E1" font-family="sans-serif" font-size="13">100% offline — data stays on your device</text>
+    </g>
+    <g transform="translate(0, 320)">
+      <circle cx="6" cy="-4" r="4" fill="#22C55E" />
+      <text x="18" y="0" fill="#CBD5E1" font-family="sans-serif" font-size="13">PDF export &amp; WhatsApp share</text>
+    </g>
+
+    <!-- Tech stack badges -->
+    <g transform="translate(0, 370)">
+      <rect x="0" y="0" rx="4" width="80" height="24" fill="#334155" />
+      <text x="40" y="16" text-anchor="middle" fill="#94A3B8" font-family="sans-serif" font-size="10">React</text>
+
+      <rect x="90" y="0" rx="4" width="80" height="24" fill="#334155" />
+      <text x="130" y="16" text-anchor="middle" fill="#94A3B8" font-family="sans-serif" font-size="10">Tailwind</text>
+
+      <rect x="180" y="0" rx="4" width="80" height="24" fill="#334155" />
+      <text x="220" y="16" text-anchor="middle" fill="#94A3B8" font-family="sans-serif" font-size="10">Vite</text>
+
+      <rect x="270" y="0" rx="4" width="80" height="24" fill="#334155" />
+      <text x="310" y="16" text-anchor="middle" fill="#94A3B8" font-family="sans-serif" font-size="10">Dexie.js</text>
+    </g>
+
+    <!-- CTA button -->
+    <g transform="translate(0, 420)">
+      <rect x="0" y="0" rx="8" width="200" height="36" fill="url(#accentGrad)" />
+      <text x="100" y="23" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="13" font-weight="bold">Start Invoicing Free →</text>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <text x="600" y="610" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="11">Free for up to 10 invoices · Pro at ₹999/yr · Razorpay Secure Payments</text>
+</svg>
